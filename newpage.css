@@ -1,0 +1,115 @@
+
+body {background-color:whitesmoke;}
+.titulo {font-size: 60px;
+    color: white;
+            width: 800px;
+            height: 800px;
+            word-break: keep-all;
+        margin-left: 1em;
+        margin-top: 13em;
+        top:1em;
+        position: absolute;
+    font-family:'Montserrat';
+    font-weight: bold;
+    animation-name: titulo;
+    animation-duration: 5s;
+    }
+@keyframes titulo {
+    from{margin-left: 0em;}
+    to{margin-left: 1em;}
+}
+
+.nuevoipad{font-weight: bold;
+            position: absolute;
+            margin-top: 3.2em;
+            top:0em;
+            right:4.5em;
+            font-size: 5em;
+        color: black;
+            font-family: Arial, Helvetica, sans-serif;}
+
+.descnuevoipad{font-family: Arial, Helvetica, sans-serif;
+                position:absolute;
+                margin-top: 17.5em;
+                top:0em;
+                right: 14em;
+                text-align: center;
+                word-wrap: break-word;
+                color: black;
+                font-size:1.5em;   
+                
+            }
+
+.infoipadpantallaprinc p{
+                        position: relative;
+                        margin-top: 0em;
+                        top:-9em;
+                        left:29em;
+                        font-size: 1.3em;
+                        font-family: Arial, Helvetica, sans-serif;
+                        float: left;
+                        padding: 1em;
+                        
+                        
+                        
+                        }
+
+
+.infoipadpantallaprinc a{text-decoration: none;
+                            color:dodgerblue;
+                            }
+
+.menu li{text-decoration: none;
+        list-style: none;
+        float: left;
+        padding:1.2em;
+        color: lightgrey;
+         background-color: black;
+         opacity: 0.7;
+        z-index: 3;
+        margin-left: 0%;
+        position: static;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        
+
+        
+        
+    }
+
+.icono{width: 5em;
+        height: 5em;}
+
+.menu a{
+    text-decoration: none;
+    color:azure;}
+
+.apple1{width: 1em;
+        height: 0.9em;
+        top:0em;
+    position: relative;
+    margin-top: 0%;}ç
+
+.content{position: fixed;
+        margin:0%;
+        margin-top: 0em;
+    }
+
+.fondo{z-index: -3;
+        width: 60em;
+        float: center;
+        margin-top: 3em;}
+
+.colornegro{position: absolute;
+            opacity: 1;
+            z-index: -3;
+            top:50em;
+        left: 0em;
+        width: 78.5em;
+        height: 50em;
+       
+        margin-left: 0em;
+        margin-right: 0em;
+        
+    
+   }
